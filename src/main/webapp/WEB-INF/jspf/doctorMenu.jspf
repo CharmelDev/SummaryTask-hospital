@@ -1,0 +1,25 @@
+<%@ include file="/WEB-INF/jspf/directive/page.jspf"%>
+<%@ include file="/WEB-INF/jspf/directive/taglib.jspf"%>
+
+<style>
+body{background: url(images/doktorH.jpg);}
+</style>
+<div style="text-align: left; margin-left: 1%;" class="border border-primary bg-dark">
+	<a href="controller?command=openMedPage"><button
+			class="btn btn-primary" type="button">
+			<fmt:message key="med_jsp.button.openMainPage" />
+		</button></a> 
+		<a href="controller?command=show_list_of_patients_doc"><button
+			class="btn btn-primary" type="button">
+			<fmt:message key="doctor_jspf.menu.button.ShowListOfPatients" />
+		</button></a> 
+		<a href="controller?command=show_medical_card"><button
+			class="btn btn-primary" type="button">
+			<fmt:message key="doctor_jspf.menu.button.MedicalCard" />
+		</button></a> 
+		<a href="controller?command=viewSettings"> <button class="btn btn-primary"
+		role="button"> <fmt:message key="header_jspf.anchor.settings" /> </button> </a>
+		 <a href="controller?command=logout"> <button class="btn btn-primary" role="button"> <fmt:message
+			key="header_jspf.anchor.logout" /> </button> </a> <br>
+</div>
+<br>

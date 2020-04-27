@@ -1,0 +1,20 @@
+<%@ include file="/WEB-INF/jspf/directive/page.jspf"%>
+<%@ include file="/WEB-INF/jspf/directive/taglib.jspf"%>
+
+<style>
+body{background: url(images/nurse1.jpg);}
+</style>
+<div align="right" class="border border-primary bg-dark">
+
+	<a href="controller?command=open_nurce_page"><button
+			class="btn btn-primary" type="button">
+			<fmt:message key="header_jspf.anchor.nurceMain" />
+		</button></a> 
+		<a href="controller?command=viewSettings"><button
+			class="btn btn-primary" type="button">
+			<fmt:message key="header_jspf.anchor.settings" />
+		</button></a> 
+		<a href="controller?command=logout"> <button class="btn btn-primary"
+		role="button"> <fmt:message key="header_jspf.anchor.logout" /> </button> </a> <br>
+</div>
+<br>

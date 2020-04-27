@@ -1,0 +1,139 @@
+body {
+	margin-right 2%;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		"Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #bfbfff; 
+	text-align: left;
+	background:url('../images/doctor.jpg')no-repeat;
+}
+
+button {
+	background-color: #bfbfff; 
+	border: none;
+	color: black;
+	padding: 7px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+button:hover {
+	background-color: #bfbfff;
+	cursor: pointer;
+}
+
+.centerCaption {
+	width: 300px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+.scrollingTable {
+	overflow-y: auto;
+	width: 800px;
+	margin: 0 auto;
+}
+
+table {
+	border: 1px solid #bfbfff;
+	background-color: #EEEEEE;
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+table td, table th {
+	border: 1px solid #AAAAAA;
+	padding: 3px 2px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table tbody td {
+	font-size: 13px;
+}
+
+table tr:nth-child(even) {
+	background: #bfbfff;
+}
+
+table thead {
+	background: #3b3b3b;;
+	background: -moz-linear-gradient(top, #3b3b3b, 0%, #327cad 66%, #1C6EA4 100%);
+	background: -webkit-linear-gradient(top, #3b3b3b, 0%, #327cad 66%, #1C6EA4 100%);
+	background: linear-gradient(to bottom, #3b3b3b, 0%, #327cad 66%, #1C6EA4 100%);
+	border-bottom: 2px solid #444444;
+}
+
+table thead th {
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border-left: 2px solid #D0E4F5;
+}
+
+table thead th:first-child {
+	border-left: none;
+}
+
+table tfoot {
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: #D0E4F5;
+	background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+	background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+	background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+	border-top: 2px solid #444444;
+}
+
+table tfoot td {
+	font-size: 14px;
+}
+
+table tfoot .links {
+	text-align: right;
+}
+
+table tfoot .links a {
+	display: inline-block;
+	background: #3b3b3b;;
+	color: #FFFFFF;
+	padding: 2px 8px;
+	border-radius: 5px;
+}
+
+.btn-sort {
+	background-color: #3b3b3b;;
+	border: none;
+	color: white;
+	padding: 3px 8px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.btn-sort:hover {
+	background-color: #bfbfff;
+	cursor: pointer;
+}
+
+form {
+	padding-bottom: 5px;
+}
+
+.input-data {
+	width: 40%;
+}
+
+.centeredTable {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
